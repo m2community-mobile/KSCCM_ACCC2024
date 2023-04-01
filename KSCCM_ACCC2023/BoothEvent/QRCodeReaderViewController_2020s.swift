@@ -235,7 +235,7 @@ class QRCodeReaderViewController: UIViewController, AVCaptureMetadataOutputObjec
         codeString = codeString.replacingOccurrences(of: "a", with: "")
         print("codeString:\(codeString)")
         let urlString =
-        "https://ezv.kr:4447/voting/php/booth/set_post.php?code=\(code)&deviceid=\(deviceID)&regist_sid=\(user_sid)&booth_sid=\(codeString)"
+        "https://ezv.kr:4447/voting/php/booth/set_post.php?code=\(code)&deviceid=\(deviceID)&regist_sid=\(regist_sid)&booth_sid=\(codeString)"
         print("urlString : \(urlString)")
       
         Server.postData(urlString: urlString) { (kData : Data?) in

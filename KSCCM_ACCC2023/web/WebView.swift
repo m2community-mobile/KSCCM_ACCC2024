@@ -331,7 +331,7 @@ class WebView: UIView
                     NotiCenter.shared.addAlram(dataDic: parameterDic) { (success) in
                         DispatchQueue.main.async {
                             if success {
-                                toastShow(message: "Add Alram complete.")
+                                toastShow(message: "Add alarm complete.")
                             }else{
                                 //                                toastShow(message: "Add Alram is fail. Retry after few minite.")
                             }
@@ -358,7 +358,7 @@ class WebView: UIView
                     
                     if let sid = parameterDic["sid"] {
                         NotiCenter.shared.removeAlram(id: sid)
-                        toastShow(message: "Remove Alram complete.")
+                        toastShow(message: "Remove alarm complete.")
                     }
                     
                 }

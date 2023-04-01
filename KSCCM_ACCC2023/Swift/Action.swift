@@ -36,6 +36,11 @@ func contentShow(dataDic : [String:Any]){
         }
     }
     
+    if let _ = dataDic[INFO.KEY.IS_E_POSTER] as? String {
+        goURL(urlString: E_Poster)
+        return
+    }
+    
     if let _ = dataDic[INFO.KEY.IS_PHOTO_GALLERY] as? String {
         goPhotoGallery()
         return

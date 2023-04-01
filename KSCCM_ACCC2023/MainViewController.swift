@@ -312,7 +312,7 @@ class MainButton: UIButton {
         innerView.isUserInteractionEnabled = false
         self.addSubview(innerView)
 
-        let iconImageViewRatio : CGFloat = 0.3
+        let iconImageViewRatio : CGFloat = 0.4
         iconImageView  = UIImageView(frame: innerView.bounds)
         iconImageView.frame.size.width *= iconImageViewRatio
         iconImageView.frame.size.height *= iconImageViewRatio
@@ -336,7 +336,7 @@ class MainButton: UIButton {
         innerView.addSubview(nameLabel)
 
         if IS_NORCH {
-            nameLabel.frame.origin.y = iconImageView.frame.maxY + 10
+            nameLabel.frame.origin.y = iconImageView.frame.maxY + 5
         }else{
             nameLabel.frame.origin.y = iconImageView.frame.maxY + 5
         }

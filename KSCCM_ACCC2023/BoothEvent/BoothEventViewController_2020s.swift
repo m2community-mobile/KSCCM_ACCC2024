@@ -12,9 +12,9 @@ import FontAwesome_swift
 class BoothEventViewController: BaseViewController {
     
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
-    }
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        return .lig
+//    }
     
     var webView : WebView!
     
@@ -236,7 +236,7 @@ class BoothEventViewController: BaseViewController {
     }
     
     func boothInfoUpdate(){
-        let urlString = "https://ezv.kr:4447/voting/php/booth/get_event_cnt.php?code=\(code)&regist_sid=\(user_sid)"
+        let urlString = "https://ezv.kr:4447/voting/php/booth/get_event_cnt.php?code=\(code)&regist_sid=\(regist_sid)"
         print("boothInfoUpdate:\(urlString)")
         Server.postData(urlString: urlString) { (kData : Data?) in
             if let data = kData {

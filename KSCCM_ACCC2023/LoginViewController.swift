@@ -93,17 +93,17 @@ class LoginViewController: UIViewController {
             return
         }
         
-        if email == "m2" {
-            userD.set("0", forKey: USER_SID)
-            userD.synchronize()
-            
-            DispatchQueue.main.async {
-                let mainVC = MainViewController()
-                self.navigationController?.pushViewController(mainVC, animated: true)
-            }
-        }
-        return
-        let urlString = "https://www.aocc2023.org/app/login.php"
+//        if email == "m2" {
+//            userD.set("0", forKey: USER_SID)
+//            userD.synchronize()
+//
+//            DispatchQueue.main.async {
+//                let mainVC = MainViewController()
+//                self.navigationController?.pushViewController(mainVC, animated: true)
+//            }
+//        }
+//        return
+        let urlString = "https://ezv.kr:4447/voting/php/login/ksccm2023.php"
         
         let sendData = [
             "deviceid":deviceID,
@@ -120,18 +120,19 @@ class LoginViewController: UIViewController {
                     print("dataString:\(dataString)")
                 }
                 if let dataDic = data.toJson() as? [String:Any] {
-                    if let row = dataDic["row"] as? String {
-                        if row == "Y"{
-                            var userSid = ""
-                            if let user_sid = dataDic["user_sid"] as? Int {
-                                print("user_sid:\(user_sid)")
-                                userSid = "\(user_sid)"
+                    if let rows = dataDic["rows"] as? String {
+                        if rows == "Y"{
+                            var regist_sid_value = ""
+                            if let registsid = dataDic["regist_sid"] as? Int {
+                                print("regist_sid Int:\(registsid)")
+                                regist_sid_value = "\(registsid)"
                             }
-                            if let user_sid = dataDic["user_sid"] as? String {
-                                userSid = user_sid
+                            if let registsid = dataDic["regist_sid"] as? String {
+                                print("regist_sid String:\(registsid)")
+                                regist_sid_value = registsid
                             }
-                            if !userSid.isEmpty {
-                                userD.set(userSid, forKey: USER_SID)
+                            if !regist_sid_value.isEmpty {
+                                userD.set(regist_sid_value, forKey: REGIST_SID)
                                 userD.synchronize()
                                 
                                 DispatchQueue.main.async {
@@ -143,7 +144,7 @@ class LoginViewController: UIViewController {
                             
                         }
                         
-                        if row == "N" {
+                        if rows == "N" {
                             DispatchQueue.main.async {
                                 appDel.showAlert(title: "Notice", message: "The password you entered is incorrect. Please try again.")
                             }

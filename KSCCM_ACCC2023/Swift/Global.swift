@@ -2,10 +2,10 @@ import Foundation
 
 let code = "KSCCM2023"
 
-let USER_SID = "USER_SID"
-var user_sid : String {
+let REGIST_SID = "REGIST_SID"
+var regist_sid : String {
     get{
-        if let value = userD.object(forKey: USER_SID) as? String {
+        if let value = userD.object(forKey: REGIST_SID) as? String {
             return value
         }else{
             return ""
@@ -14,24 +14,13 @@ var user_sid : String {
 }
 
 var isLogin : Bool {
-    print("user_sid:\(user_sid)")
-    return !user_sid.isEmpty
-}
-
-let REGIST_ID = "REGIST_ID"
-var regist_id : String {
-    get{
-        if let value = userD.object(forKey: REGIST_ID) as? String {
-            return value
-        }else{
-            return ""
-        }
-    }
+    print("user_sid:\(regist_sid)")
+    return !regist_sid.isEmpty
 }
 
 var boothEvent : String {
     get{
-        return "https://ezv.kr:4447/voting/php/booth/event.php?code=\(code)&user_sid=\(user_sid)&barcode=\(regist_id)&include=Y"
+        return "https://ezv.kr:4447/voting/php/booth/event.php?code=\(code)&user_sid=\(regist_sid)&barcode=\(regist_sid)&include=Y"
     }
 }
 
@@ -112,7 +101,7 @@ struct URL_KEY {
     static let Luncheon_Symposium = "https://ezv.kr:4447/ksccm2023/html/contents/luncheon.html"
 
     static let Award = "https://ezv.kr:4447/ksccm2023/html/contents/award.html"
-    static let E_Poster = "https://ezv.kr:4447/ksccm2023/html/eposter/index.html"
+//    static let E_Poster = "https://ezv.kr:4447/ksccm2023/html/eposter/index.html"
 
 
     static let Sponsors = "https://ezv.kr:4447/voting/php/booth/list.php?code=KSCCM2023"
@@ -123,6 +112,12 @@ struct URL_KEY {
 
     static let Sponsor          = "https://ezv.kr:4447/voting/php/booth/list.php?code=\(code)"
         
+}
+
+var E_Poster : String {
+    get {
+        return "https://ezv.kr:4447/ksccm2023/html/eposter/index.html?regist_sid=\(regist_sid)&deviceid=\(deviceID)"
+    }
 }
 
 struct INFO {
@@ -146,6 +141,7 @@ struct INFO {
         
         //etc
         static let IS_BOOTH_EVENT = "IS_BOOTH_EVENT"
+        static let IS_E_POSTER = "IS_E_POSTER"
         
     }
     
@@ -156,7 +152,7 @@ struct INFO {
             [KEY.TITLE : "Program",KEY.URL:URL_KEY.today],
             [KEY.TITLE : "Abstract",KEY.URL:URL_KEY.Abstract],
             [KEY.TITLE : "Invited\nSpeakers",KEY.URL:URL_KEY.speakers],
-            [KEY.TITLE : "E-Poster",KEY.URL:URL_KEY.E_Poster],
+            [KEY.TITLE : "E-Poster",KEY.IS_E_POSTER:KEY.IS_E_POSTER],
             [KEY.TITLE : "Voting",KEY.IS_VOTING:KEY.IS_VOTING],
             [KEY.TITLE : "Survey",KEY.URL:URL_KEY.Survey],
             [KEY.TITLE : "Sponsors",KEY.URL:URL_KEY.Sponsors],
@@ -226,7 +222,7 @@ struct INFO {
             [KEY.TITLE : "Abstract",KEY.URL:URL_KEY.Abstract],
             [KEY.TITLE : "Invited Speakers",KEY.URL:URL_KEY.speakers],
             [KEY.TITLE : "Award",KEY.URL:URL_KEY.Award],
-            [KEY.TITLE : "E-Poster",KEY.URL:URL_KEY.E_Poster],
+            [KEY.TITLE : "E-Poster",KEY.IS_E_POSTER:KEY.IS_E_POSTER],
             [KEY.TITLE : "Voting",KEY.IS_VOTING:KEY.IS_VOTING],
             [KEY.TITLE : "Survey",KEY.URL:URL_KEY.Survey],
             [

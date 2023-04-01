@@ -38,7 +38,7 @@ class BottomView: UIView {
         let buttonCount = 5
         let buttonWidth : CGFloat = SCREEN.WIDTH / CGFloat(buttonCount)
         let buttonHeight : CGFloat = BottomViewInnerViewSizeHeight
-        let buttonNames = ["HOME","PROGRAM","NOTICE","SEARCH","FAVORITE"]
+        let buttonNames = ["HOME","PROGRAM","NOW","SEARCH","FAVORITE"]
         for i in 0..<buttonCount{
             
             let bottomButton = BottomIconButton(frame: CGRect(x: CGFloat(i) * buttonWidth, y: 0, width: buttonWidth, height: buttonHeight), name: buttonNames[i], imageName: "footIco\(i+1)")
@@ -56,8 +56,8 @@ class BottomView: UIView {
                     self.bottomSubView?.open()
                     break
                 case 2:
-//                    goURL(urlString: URL_KEY.now)//, popAnimation: false, pushAnimation: false)
-                    goURL(urlString: URL_KEY.noticeList)
+                    goURL(urlString: URL_KEY.now)//, popAnimation: false, pushAnimation: false)
+//                    goURL(urlString: URL_KEY.noticeList)
                     break
                 case 3:
                     goURL(urlString: URL_KEY.search)//, popAnimation: false, pushAnimation: false)

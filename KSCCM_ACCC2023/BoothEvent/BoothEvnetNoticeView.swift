@@ -39,7 +39,7 @@ class BoothEvnetNoticeView: UIView {
             x: 0,
             y: 0,
             width: SCREEN.WIDTH,
-            height: attendButton.frame.minY), urlString: "http://ezv.kr/aocc2023/html/contents/event.html")
+            height: attendButton.frame.minY), urlString: "http://ezv.kr/ksccm2023/html/contents/event.html")
         webView.motherVC = boothVC
         webView.boothEvnetNoticeView = self
         self.addSubview(webView)

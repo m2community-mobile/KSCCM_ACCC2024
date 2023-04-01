@@ -239,7 +239,7 @@ extension NotiCenter {
         }
         
         var day = 0
-        if tab == "440" { day = 28 }
+        if tab == "440" { day = 27 }
         else if tab == "441" { day = 28 }
         if day == 0 { return complete(false) }
         

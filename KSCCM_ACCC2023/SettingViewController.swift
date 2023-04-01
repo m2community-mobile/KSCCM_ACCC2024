@@ -91,7 +91,7 @@ class SettingViewController: BaseViewController {
             
             let alertcon = UIAlertController(title: "Notice", message: "Logout?", preferredStyle: .alert)
             alertcon.addAction(UIAlertAction(title: "Yes", style: .default, handler: { _ in
-                userD.removeObject(forKey: USER_SID)
+                userD.removeObject(forKey: REGIST_SID)
                 userD.synchronize()
                 
                 self.navigationController?.viewControllers.insert(LoginViewController(), at: 0)
