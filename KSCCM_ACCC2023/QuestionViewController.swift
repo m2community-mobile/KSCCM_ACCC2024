@@ -30,7 +30,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
     var questionSelectView : QuestionSelectView?
     var questionDataArray = [[String:Any]]()
     
-    var selectNameLabelDefaultString = "선택해 주십시오    ▼"
+    var selectNameLabelDefaultString = "Please Select    ▼"
     
     //웹뷰로부터 전달받음
     var session_sid = ""
@@ -98,7 +98,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
         if IS_IPHONE_SE {
             subTitleLabel.frame.size.height = 50
         }
-        subTitleLabel.text = "강의중 궁금하신 내용을 질문해 주십시오"
+        subTitleLabel.text = "Please send us any questions you have regarding the lecture."
         subTitleLabel.font = UIFont(name: Nanum_Barun_Gothic_OTF_Light, size: subTitleLabel.frame.size.height * 0.32)
         subTitleLabel.textAlignment = .center
         innerView3.addSubview(subTitleLabel)
@@ -121,7 +121,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
         sendButton.addSubview(sendButtonRightImageView)
         
         let sendButtonLabel = UILabel(frame: sendButton.bounds)
-        sendButtonLabel.text = "전송"
+        sendButtonLabel.text = "SEND"
         sendButtonLabel.textAlignment = .center
         sendButtonLabel.textColor = UIColor.white
         sendButtonLabel.font = UIFont(name: Nanum_Barun_Gothic_OTF_Bold, size: sendButtonLabel.frame.size.height * 0.35)
@@ -186,7 +186,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
             self.questionTextView.resignFirstResponder()
             
             if self.questionDataArray.count == 0 {
-                toastShow(message: "준비중입니다.")
+                toastShow(message: "Coming soon.")
                 self.questionUpdate()
                 return
             }
@@ -260,18 +260,18 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
     func requestQuestion(){
         
         if self.questionDataArray.count == 0 {
-            toastShow(message: "준비중입니다.")
+            toastShow(message: "Coming soon.")
             return
         }
         
         if self.questionTextView.text == "" {
-            toastShow(message: "질문을 입력해주세요.")
+            toastShow(message: "Please enter a question.")
             return
         }
         
         
         if self.selectNameLabel.text == selectNameLabelDefaultString {
-            toastShow(message: "강의를 선택해주세요.")
+            toastShow(message: "Please select a lesson.")
             return
         }
         
@@ -295,16 +295,17 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
                     print("question dataString:\(dataString)")
                     if dataString == "Y" {
                         DispatchQueue.main.async {
-                            let alertCon = UIAlertController(title: "Notice", message: "질문이 등록되었습니다.", preferredStyle: .alert)
-                            alertCon.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in }))
+                            let alertCon = UIAlertController(title: "Notice", message: "Your question has been registered.", preferredStyle: .alert)
+                            alertCon.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action) in }))
                             self.present(alertCon, animated: true, completion: {
                                 self.questionTextView.text = ""
                             })
                         }
                     }else{
                         DispatchQueue.main.async {
-                            let alertCon = UIAlertController(title: "Notice", message: "통신이 원활하지 않습니다.\n잠시 후 다시 시도해주세요.", preferredStyle: .alert)
-                            alertCon.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in }))
+                            let alertCon = UIAlertController(title: "Notice", message: "Communication is not working. \nPlease try again later.", preferredStyle: .alert)
+                            alertCon.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action) in }))
+
                             self.present(alertCon, animated: true, completion: { })
                         }
                     }
@@ -312,8 +313,8 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
                 }
             }
             DispatchQueue.main.async {
-                let alertCon = UIAlertController(title: "Notice", message: "통신이 원활하지 않습니다.\n잠시 후 다시 시도해주세요.", preferredStyle: .alert)
-                alertCon.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in }))
+                let alertCon = UIAlertController(title: "Notice", message: "Communication is not working. \nPlease try again later.", preferredStyle: .alert)
+                alertCon.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action) in }))
                 self.present(alertCon, animated: true, completion: {
                     
                 })
