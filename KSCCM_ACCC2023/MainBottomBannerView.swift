@@ -85,16 +85,21 @@ class BoothBannerView : UIView {
             self.loadBoothImages(imageDataArray: imageDataArray) {
                 print("All Booth Image Load ========")
                 print("self.advertiseViews.count:\(self.advertiseViews.count)")
-                let minCount = min(self.advertiseViews.count, 3)
-                if minCount >= 1 {
-                    self.advertiseViews[0].center.x = (SCREEN.WIDTH / 6) * 1
+                
+                if self.advertiseViews.count >= 1 {
+                    self.advertiseViews[0].center.x = (SCREEN.WIDTH / 6) * 3
                 }
-                if minCount >= 2 {
-                    self.advertiseViews[1].center.x = (SCREEN.WIDTH / 6) * 3
-                }
-                if minCount >= 3 {
-                    self.advertiseViews[2].center.x = (SCREEN.WIDTH / 6) * 5
-                }
+                
+//                let minCount = min(self.advertiseViews.count, 3)
+//                if minCount >= 1 {
+//                    self.advertiseViews[0].center.x = (SCREEN.WIDTH / 6) * 1
+//                }
+//                if minCount >= 2 {
+//                    self.advertiseViews[1].center.x = (SCREEN.WIDTH / 6) * 3
+//                }
+//                if minCount >= 3 {
+//                    self.advertiseViews[2].center.x = (SCREEN.WIDTH / 6) * 5
+//                }
             }
         }
         
