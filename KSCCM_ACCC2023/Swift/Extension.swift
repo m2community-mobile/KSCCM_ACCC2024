@@ -170,7 +170,7 @@ extension AppDelegate {
         }
     }
     
-    func showAlert(title : String?, message : String?, actions:[UIAlertAction] = [UIAlertAction(title: "확인", style: .cancel, handler: nil) ], complete:(()->Void)? = nil){
+    func showAlert(title : String?, message : String?, actions:[UIAlertAction] = [UIAlertAction(title: "Confirm", style: .cancel, handler: nil) ], complete:(()->Void)? = nil){
         
         self.alertCon?.dismiss(animated: false, completion: {})
         

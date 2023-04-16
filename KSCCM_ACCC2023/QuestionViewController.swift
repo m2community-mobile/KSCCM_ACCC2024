@@ -99,6 +99,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
             subTitleLabel.frame.size.height = 50
         }
         subTitleLabel.text = "Please send us any questions you have regarding the lecture."
+        subTitleLabel.numberOfLines = 0
         subTitleLabel.font = UIFont(name: Nanum_Barun_Gothic_OTF_Light, size: subTitleLabel.frame.size.height * 0.32)
         subTitleLabel.textAlignment = .center
         innerView3.addSubview(subTitleLabel)
@@ -271,7 +272,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
         
         
         if self.selectNameLabel.text == selectNameLabelDefaultString {
-            toastShow(message: "Please select a lesson.")
+            toastShow(message: "Please select a lecture.")
             return
         }
         
@@ -303,7 +304,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
                         }
                     }else{
                         DispatchQueue.main.async {
-                            let alertCon = UIAlertController(title: "Notice", message: "Communication is not working. \nPlease try again later.", preferredStyle: .alert)
+                            let alertCon = UIAlertController(title: "Notice", message: "Network is not working. \nPlease try again later.", preferredStyle: .alert)
                             alertCon.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action) in }))
 
                             self.present(alertCon, animated: true, completion: { })
@@ -313,7 +314,7 @@ class QuestionViewController: UIViewController, QuestionSelectViewDelegate {
                 }
             }
             DispatchQueue.main.async {
-                let alertCon = UIAlertController(title: "Notice", message: "Communication is not working. \nPlease try again later.", preferredStyle: .alert)
+                let alertCon = UIAlertController(title: "Notice", message: "Network is not working. \nPlease try again later.", preferredStyle: .alert)
                 alertCon.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action) in }))
                 self.present(alertCon, animated: true, completion: {
                     

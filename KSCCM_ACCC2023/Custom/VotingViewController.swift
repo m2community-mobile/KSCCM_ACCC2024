@@ -81,11 +81,11 @@ class VotingViewController: UIViewController {
             if let data = kData,
                let dataString = data.toString() {
                 if dataString == "1" {
-                    appDel.showAlert(title: "안내", message: "보팅이 제출되었습니다.")
+                    appDel.showAlert(title: "Notice", message: "Your vote has been submitted.")
                 }else if dataString == "2" {
-                    appDel.showAlert(title: "안내", message: "보팅이 수정되었습니다.")
+                    appDel.showAlert(title: "Notice", message: "Votes have been corrected.")
                 }else{
-                    appDel.showAlert(title: "안내", message: "현재 진행중인 보팅이 없습니다.")
+                    appDel.showAlert(title: "Notice", message: "There is currently no vote in progress.")
                 }
             }
         }

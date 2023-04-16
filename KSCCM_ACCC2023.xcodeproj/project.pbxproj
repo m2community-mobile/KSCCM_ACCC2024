@@ -814,7 +814,7 @@
 				DEVELOPMENT_TEAM = 85JQMF8YT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KSCCM_ACCC2023/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ksccm2023;
+				INFOPLIST_KEY_CFBundleDisplayName = ACCC2023;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need access Camera for photo upload.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access Album for photo download.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access Album for photo upload.";
@@ -853,7 +853,7 @@
 				DEVELOPMENT_TEAM = 85JQMF8YT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KSCCM_ACCC2023/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ksccm2023;
+				INFOPLIST_KEY_CFBundleDisplayName = ACCC2023;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need access Camera for photo upload.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access Album for photo download.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access Album for photo upload.";
