@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D045A6E1C19342E991AE205 /* Pods_KSCCM_ACCC2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1A395545501C41EA8987C5 /* Pods_KSCCM_ACCC2023.framework */; };
+		194E1A954B388E89132963EE /* Pods_KSCCM_ACCC2024_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D15D791B682F15AA7A89A2 /* Pods_KSCCM_ACCC2024_copy.framework */; };
 		580080962BC9233A0007EF89 /* BoothEventSecondButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580080952BC9233A0007EF89 /* BoothEventSecondButton.swift */; };
 		580080992BC92BD60007EF89 /* BoothEventSecondButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580080952BC9233A0007EF89 /* BoothEventSecondButton.swift */; };
 		581D3D2D2BC8F87A00CE2584 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581D3D2C2BC8F87A00CE2584 /* GoogleService-Info.plist */; };
@@ -228,14 +228,14 @@
 		7EA7414D29CB4E190057D905 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EA740B929CB4B9A0057D905 /* NotoSansKR-Medium.otf */; };
 		7EA7414E29CB4E190057D905 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EA740DB29CB4BB10057D905 /* OpenSans-Bold.ttf */; };
 		7EA7414F29CB4E190057D905 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EA740D929CB4BB00057D905 /* Pretendard-Black.otf */; };
-		9A658EAC4D1A40F105962885 /* Pods_KSCCM_ACCC2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1A395545501C41EA8987C5 /* Pods_KSCCM_ACCC2023.framework */; };
-		E5A9DE03B0685B1AC8F42970 /* Pods_KSCCM_ACCC2023_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29708007C39A996304C36A8B /* Pods_KSCCM_ACCC2023_copy.framework */; };
+		87699075C27927AE59C00C2C /* Pods_KSCCM_ACCC2024.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A59481807D9FB3DE7F4D17 /* Pods_KSCCM_ACCC2024.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F4B3197D9C9A67BC5A8E6D /* Pods-KSCCM_ACCC2024 copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2024 copy.debug.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2024 copy/Pods-KSCCM_ACCC2024 copy.debug.xcconfig"; sourceTree = "<group>"; };
 		0976C8BF303EF9C46224F32D /* Pods-KSCCM_ACCC2023 copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2023 copy.debug.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2023 copy/Pods-KSCCM_ACCC2023 copy.debug.xcconfig"; sourceTree = "<group>"; };
-		29708007C39A996304C36A8B /* Pods_KSCCM_ACCC2023_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCCM_ACCC2023_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D1A395545501C41EA8987C5 /* Pods_KSCCM_ACCC2023.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCCM_ACCC2023.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE438E83275C6EB58C0AEBB /* Pods-KSCCM_ACCC2024 copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2024 copy.release.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2024 copy/Pods-KSCCM_ACCC2024 copy.release.xcconfig"; sourceTree = "<group>"; };
+		43D15D791B682F15AA7A89A2 /* Pods_KSCCM_ACCC2024_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCCM_ACCC2024_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		580080952BC9233A0007EF89 /* BoothEventSecondButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothEventSecondButton.swift; sourceTree = "<group>"; };
 		581D3D2C2BC8F87A00CE2584 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../무제 폴더 11/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5830F6F72B9E87A30087195B /* introKSCCM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introKSCCM.png; sourceTree = "<group>"; };
@@ -247,9 +247,9 @@
 		58D88F892BCCC717005947E5 /* introMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = introMain.png; path = ../../../../Downloads/introMain.png; sourceTree = "<group>"; };
 		58D88F8C2BCCED96005947E5 /* intropng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intropng.png; sourceTree = "<group>"; };
 		58D88F9B2BCD017A005947E5 /* mymyIntroMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymyIntroMain.png; sourceTree = "<group>"; };
-		7E81E8A129F03A08004028AC /* KSCCM_ACCC2023 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KSCCM_ACCC2023 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E81E8A129F03A08004028AC /* KSCCM_ACCC2024 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KSCCM_ACCC2024 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E81E8A429F03DFF004028AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7EA7404A29CB4A230057D905 /* KSCCM_ACCC2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCCM_ACCC2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA7404A29CB4A230057D905 /* KSCCM_ACCC2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCCM_ACCC2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA7404D29CB4A230057D905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA7405129CB4A230057D905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EA7405429CB4A230057D905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -351,9 +351,12 @@
 		7EA740F329CB4C2F0057D905 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7EA740F429CB4C2F0057D905 /* GlanceSubWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceSubWebController.swift; sourceTree = "<group>"; };
 		7EBF63AB29D33D2600E4C72D /* KSCCM_ACCC2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KSCCM_ACCC2023.entitlements; sourceTree = "<group>"; };
+		82A59481807D9FB3DE7F4D17 /* Pods_KSCCM_ACCC2024.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCCM_ACCC2024.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		926941B252D049D721A75CBF /* Pods-KSCCM_ACCC2024.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2024.release.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2024/Pods-KSCCM_ACCC2024.release.xcconfig"; sourceTree = "<group>"; };
 		93A0F4C48D9AFF0C97B66AE7 /* Pods-KSCCM_ACCC2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2023.release.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2023/Pods-KSCCM_ACCC2023.release.xcconfig"; sourceTree = "<group>"; };
 		93A98D0D837F18F81B7673F3 /* Pods-KSCCM_ACCC2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2023.debug.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2023/Pods-KSCCM_ACCC2023.debug.xcconfig"; sourceTree = "<group>"; };
 		C03CEECBD8A85801B2531EE4 /* Pods-KSCCM_ACCC2023 copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2023 copy.release.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2023 copy/Pods-KSCCM_ACCC2023 copy.release.xcconfig"; sourceTree = "<group>"; };
+		E29B9F8012A90773353C298E /* Pods-KSCCM_ACCC2024.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCCM_ACCC2024.debug.xcconfig"; path = "Target Support Files/Pods-KSCCM_ACCC2024/Pods-KSCCM_ACCC2024.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,7 +364,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A9DE03B0685B1AC8F42970 /* Pods_KSCCM_ACCC2023_copy.framework in Frameworks */,
+				194E1A954B388E89132963EE /* Pods_KSCCM_ACCC2024_copy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,8 +372,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D045A6E1C19342E991AE205 /* Pods_KSCCM_ACCC2023.framework in Frameworks */,
-				9A658EAC4D1A40F105962885 /* Pods_KSCCM_ACCC2023.framework in Frameworks */,
+				87699075C27927AE59C00C2C /* Pods_KSCCM_ACCC2024.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,8 +382,8 @@
 		5FCA70326E3860A3E5679FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D1A395545501C41EA8987C5 /* Pods_KSCCM_ACCC2023.framework */,
-				29708007C39A996304C36A8B /* Pods_KSCCM_ACCC2023_copy.framework */,
+				82A59481807D9FB3DE7F4D17 /* Pods_KSCCM_ACCC2024.framework */,
+				43D15D791B682F15AA7A89A2 /* Pods_KSCCM_ACCC2024_copy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -404,7 +406,7 @@
 		7EA7404129CB4A230057D905 = {
 			isa = PBXGroup;
 			children = (
-				7EA7404C29CB4A230057D905 /* KSCCM_ACCC2023 */,
+				7EA7404C29CB4A230057D905 /* KSCCM_ACCC2024 */,
 				7EA7404B29CB4A230057D905 /* Products */,
 				C08144E426EB6621B1C3362F /* Pods */,
 				5FCA70326E3860A3E5679FCF /* Frameworks */,
@@ -414,13 +416,13 @@
 		7EA7404B29CB4A230057D905 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EA7404A29CB4A230057D905 /* KSCCM_ACCC2023.app */,
-				7E81E8A129F03A08004028AC /* KSCCM_ACCC2023 copy.app */,
+				7EA7404A29CB4A230057D905 /* KSCCM_ACCC2024.app */,
+				7E81E8A129F03A08004028AC /* KSCCM_ACCC2024 copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7EA7404C29CB4A230057D905 /* KSCCM_ACCC2023 */ = {
+		7EA7404C29CB4A230057D905 /* KSCCM_ACCC2024 */ = {
 			isa = PBXGroup;
 			children = (
 				7EBF63AB29D33D2600E4C72D /* KSCCM_ACCC2023.entitlements */,
@@ -460,7 +462,7 @@
 				581D3D2C2BC8F87A00CE2584 /* GoogleService-Info.plist */,
 				7EA7405B29CB4A260057D905 /* Info.plist */,
 			);
-			path = KSCCM_ACCC2023;
+			path = KSCCM_ACCC2024;
 			sourceTree = "<group>";
 		};
 		7EA7408329CB4AED0057D905 /* BoothEvent */ = {
@@ -620,6 +622,10 @@
 				93A0F4C48D9AFF0C97B66AE7 /* Pods-KSCCM_ACCC2023.release.xcconfig */,
 				0976C8BF303EF9C46224F32D /* Pods-KSCCM_ACCC2023 copy.debug.xcconfig */,
 				C03CEECBD8A85801B2531EE4 /* Pods-KSCCM_ACCC2023 copy.release.xcconfig */,
+				E29B9F8012A90773353C298E /* Pods-KSCCM_ACCC2024.debug.xcconfig */,
+				926941B252D049D721A75CBF /* Pods-KSCCM_ACCC2024.release.xcconfig */,
+				08F4B3197D9C9A67BC5A8E6D /* Pods-KSCCM_ACCC2024 copy.debug.xcconfig */,
+				1BE438E83275C6EB58C0AEBB /* Pods-KSCCM_ACCC2024 copy.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -627,9 +633,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E81E83229F03A08004028AC /* KSCCM_ACCC2023 copy */ = {
+		7E81E83229F03A08004028AC /* KSCCM_ACCC2024 copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E81E89E29F03A08004028AC /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2023 copy" */;
+			buildConfigurationList = 7E81E89E29F03A08004028AC /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2024 copy" */;
 			buildPhases = (
 				489D9DDA9292E6C8E7B50310 /* [CP] Check Pods Manifest.lock */,
 				7E81E83429F03A08004028AC /* Sources */,
@@ -641,14 +647,14 @@
 			);
 			dependencies = (
 			);
-			name = "KSCCM_ACCC2023 copy";
+			name = "KSCCM_ACCC2024 copy";
 			productName = KSCCM_ACCC2023;
-			productReference = 7E81E8A129F03A08004028AC /* KSCCM_ACCC2023 copy.app */;
+			productReference = 7E81E8A129F03A08004028AC /* KSCCM_ACCC2024 copy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7EA7404929CB4A230057D905 /* KSCCM_ACCC2023 */ = {
+		7EA7404929CB4A230057D905 /* KSCCM_ACCC2024 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EA7405E29CB4A260057D905 /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2023" */;
+			buildConfigurationList = 7EA7405E29CB4A260057D905 /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2024" */;
 			buildPhases = (
 				4B687566D96EF5016B100E0F /* [CP] Check Pods Manifest.lock */,
 				7EA7404629CB4A230057D905 /* Sources */,
@@ -660,9 +666,9 @@
 			);
 			dependencies = (
 			);
-			name = KSCCM_ACCC2023;
+			name = KSCCM_ACCC2024;
 			productName = KSCCM_ACCC2023;
-			productReference = 7EA7404A29CB4A230057D905 /* KSCCM_ACCC2023.app */;
+			productReference = 7EA7404A29CB4A230057D905 /* KSCCM_ACCC2024.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -680,7 +686,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EA7404529CB4A230057D905 /* Build configuration list for PBXProject "KSCCM_ACCC2023" */;
+			buildConfigurationList = 7EA7404529CB4A230057D905 /* Build configuration list for PBXProject "KSCCM_ACCC2024" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -693,8 +699,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EA7404929CB4A230057D905 /* KSCCM_ACCC2023 */,
-				7E81E83229F03A08004028AC /* KSCCM_ACCC2023 copy */,
+				7EA7404929CB4A230057D905 /* KSCCM_ACCC2024 */,
+				7E81E83229F03A08004028AC /* KSCCM_ACCC2024 copy */,
 			);
 		};
 /* End PBXProject section */
@@ -840,7 +846,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KSCCM_ACCC2023 copy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KSCCM_ACCC2024 copy-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -862,7 +868,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KSCCM_ACCC2023-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KSCCM_ACCC2024-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -875,15 +881,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023 copy/Pods-KSCCM_ACCC2023 copy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024 copy/Pods-KSCCM_ACCC2024 copy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023 copy/Pods-KSCCM_ACCC2023 copy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024 copy/Pods-KSCCM_ACCC2024 copy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023 copy/Pods-KSCCM_ACCC2023 copy-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024 copy/Pods-KSCCM_ACCC2024 copy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9D3A559563C3C99FE321DE7 /* [CP] Embed Pods Frameworks */ = {
@@ -892,15 +898,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023/Pods-KSCCM_ACCC2023-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024/Pods-KSCCM_ACCC2024-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023/Pods-KSCCM_ACCC2023-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024/Pods-KSCCM_ACCC2024-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2023/Pods-KSCCM_ACCC2023-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSCCM_ACCC2024/Pods-KSCCM_ACCC2024-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1056,7 +1062,7 @@
 /* Begin XCBuildConfiguration section */
 		7E81E89F29F03A08004028AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0976C8BF303EF9C46224F32D /* Pods-KSCCM_ACCC2023 copy.debug.xcconfig */;
+			baseConfigurationReference = 08F4B3197D9C9A67BC5A8E6D /* Pods-KSCCM_ACCC2024 copy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1095,7 +1101,7 @@
 		};
 		7E81E8A029F03A08004028AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03CEECBD8A85801B2531EE4 /* Pods-KSCCM_ACCC2023 copy.release.xcconfig */;
+			baseConfigurationReference = 1BE438E83275C6EB58C0AEBB /* Pods-KSCCM_ACCC2024 copy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1248,16 +1254,16 @@
 		};
 		7EA7405F29CB4A260057D905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93A98D0D837F18F81B7673F3 /* Pods-KSCCM_ACCC2023.debug.xcconfig */;
+			baseConfigurationReference = E29B9F8012A90773353C298E /* Pods-KSCCM_ACCC2024.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KSCCM_ACCC2023/KSCCM_ACCC2023.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FB7H5H4VB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KSCCM_ACCC2023/Info.plist;
+				INFOPLIST_FILE = KSCCM_ACCC2024/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "KSCCM-ACCC 2024";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need access Camera for photo upload.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access Album for photo download.";
@@ -1287,16 +1293,16 @@
 		};
 		7EA7406029CB4A260057D905 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93A0F4C48D9AFF0C97B66AE7 /* Pods-KSCCM_ACCC2023.release.xcconfig */;
+			baseConfigurationReference = 926941B252D049D721A75CBF /* Pods-KSCCM_ACCC2024.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KSCCM_ACCC2023/KSCCM_ACCC2023.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FB7H5H4VB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KSCCM_ACCC2023/Info.plist;
+				INFOPLIST_FILE = KSCCM_ACCC2024/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "KSCCM-ACCC 2024";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need access Camera for photo upload.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access Album for photo download.";
@@ -1327,7 +1333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E81E89E29F03A08004028AC /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2023 copy" */ = {
+		7E81E89E29F03A08004028AC /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2024 copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E81E89F29F03A08004028AC /* Debug */,
@@ -1336,7 +1342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EA7404529CB4A230057D905 /* Build configuration list for PBXProject "KSCCM_ACCC2023" */ = {
+		7EA7404529CB4A230057D905 /* Build configuration list for PBXProject "KSCCM_ACCC2024" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EA7405C29CB4A260057D905 /* Debug */,
@@ -1345,7 +1351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EA7405E29CB4A260057D905 /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2023" */ = {
+		7EA7405E29CB4A260057D905 /* Build configuration list for PBXNativeTarget "KSCCM_ACCC2024" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EA7405F29CB4A260057D905 /* Debug */,
